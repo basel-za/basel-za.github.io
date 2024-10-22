@@ -1,0 +1,14 @@
+<b>Motivation</b> <br>
+Challenge-response is a widely used mechanism for user verification. However, it is vulnerable to evasion by attackers who can employ social engineering tactics or gather information to guess or steal the necessary credentials.<br>
+<br>
+<b>Objective</b><br>
+Develop a tool that generates dynamic challenge questions from conversation history to verify the identity of a user. These questions are easily answerable by the user and impossible for anyone else to answer.<br>
+<br>
+<b>Approach</b><br>
+1- Constructing a criteria for evaluating generated questions.<br>
+2- Fine-tune a transformer language model on an email corpus to extract rich features.<br>
+3- Extract various natural language features that are associated with the criteria.<br>
+4- Train deep learning models that generate challenge questions.<br>
+<br>
+<b>Publications</b><br>
+Abdeen, B., Al-Shaer, E., & Shadid, W. (2023, October). VeriActor: Dynamic Generation of Challenge-Response Questions for Enhanced Email Sender Verification. In 2023 IEEE Conference on Communications and Network Security (CNS) (pp. 1-9). IEEE.

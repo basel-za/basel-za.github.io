@@ -1,0 +1,11 @@
+<b>QR code detection</b><br>
+Develop an image processing algorithm to detect and interpret QR codes from real-world images using C++. <br>
+<br>
+<b> Dynamic channel allocation in cognitive radio networks </b><br>
+Develop a novel dynamic channel allocation algorithm in cognitive radio networks simulated using C++. <br>
+<br>
+<b> Threat group detection from cyber threat intelligence reports</b><br>
+Develop a named entity recognition model to detect new malicious groups from cyber threat intelligence reports.<br>
+<br>
+<b>Breast cancer detection in ultrasound images</b><br>
+Develop image processing algorithms to detect cancer tumors in ultrasound images using image processing techniques in MATLAB.<br>

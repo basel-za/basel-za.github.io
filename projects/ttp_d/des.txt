@@ -1,0 +1,11 @@
+<b>Motivation</b> <br>
+Developing threat information ontologies is essential for understanding cyber attacks.<br>
+<br>
+<b>Objective</b><br>
+Build a tool that automatically constructs an ontology of attack behaviors across semantic gaps, from low-level malicious code to high-level attack objectives.<br>
+<br>
+<b>Approach</b><br>
+1- Design the ontology by identifying and defining various attack behaviors and their interrelationships. <br>
+2- Harvest LLMs' knowledge and mine public data to construct the ontology. <br>
+3- Employ chain-of-thought reasoning and few-shot learning techniques to train LLMs for automatic ontology expansion. <br>
+

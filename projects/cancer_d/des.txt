@@ -1,0 +1,14 @@
+<b>Motivation</b> <br>
+Experts spend considerable time and effort manually analyzing stained tissue biopsies for cancer diagnosis. <br>
+These efforts can be drastically reduced with computer-aided AI systems. <br>
+<br>
+<b>Objective</b> <br>
+Develop a tool that automatically detects, classifies, and segments cells in stained tissue biopsies. <br>
+<br>
+<b>Tasks:</b> <br>
+1- Develop an image registration algorithm to construct a full biopsy image. <br>
+2- Develop an image processing algorithm using OpenCV to pre-process images. <br>
+3- Develop a machine learning model to detect cells in the biopsies, segment them, and categorize them as malignant or benign. <br>
+4- Develop an algorithm that extracts various features from the biopsies and applies statistical analysis to aid expert diagnosis.<br>
+
+

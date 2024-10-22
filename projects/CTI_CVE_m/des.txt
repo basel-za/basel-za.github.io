@@ -1,0 +1,17 @@
+<b>Motivation</b> <br>
+ATT&CK is a knowledge base that categorizes real-world attack activities into tactics, techniques, and procedures (TTPs). <br>
+CVE is a list of disclosed vulnerabilities in public software, and CTI reports provide technical analysis of real-world attacks. <br>  
+Mapping CVE and CTI reports to ATT&CK enriches them with additional context, accelerates threat response, and facilitates collaboration and information sharing among organizations.<br>
+<br>
+<b>Objective</b><br>
+Build a tool that automatically maps CVE and CTI reports to appropriate ATT&CK techniques.<br>
+<br>
+<b>Approach</b><br>
+1- Develop a semantic extraction algorithm to extract attack vectors from ATT&CK, CTE reports, and CVE.<br>
+2- Finetune a language model using the SIAMESE network to maximize the cosine similarity between phrases extracted from the same techniques and minimize it otherwise.<br>
+3- Use the finetuned language model to extract semantically rich embedding of attack vectors.<br>
+4- Train a logistic regression model to classify extracted attack behaviors into techniques.<br>
+<br>
+<b>Publications</b><br> 
+-Abdeen, B., Al-Shaer, E., Singhal, A., Khan, L., & Hamlen, K. (2023, July). Smet: Semantic mapping of cve to att&ck and its application to cybersecurity. In IFIP Annual Conference on Data and Applications Security and Privacy (pp. 243-260). Cham: Springer Nature Switzerland. **<b>Best Student Paper Award</b>**<br> 
+-Basel Abdeen, Ehab Al-Shaer, Anoop Singhal, Latifur Khan, and Kevin Hamlen, SMET: Semantic Mapping of CTI reports and CVE to ATT&CK for Advanced Threat Intelligence, Journal of Computer Security, IOSP Press

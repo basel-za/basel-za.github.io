@@ -1,0 +1,12 @@
+<b>Motivation</b> <br>
+Cyber threat intelligence (CTI) reports are the key resource for understanding and communicating cyber threat information. <br>
+Security analysts manually analyze CTI reports to identify actionable information, a task that requires substantial time and effort.  <br>
+<br>
+<b>Objective</b> <br>
+Build a tool that automatically extracts actionable information from CTI reports.<br>
+<br>
+<b>Approach</b> <br>
+1- Train deep learning and transformer models to identify attack procedures from a CTI report.<br>
+2- Train a transformer model using semi-supervised learning techniques to categorize attack procedures.<br>
+3- Leverage semantic role labeling to extract the relationship between attack procedures. <br>
+4- Leverage dependency trees and named entity recognition tools to extract attributes of attacker artifacts.<br>

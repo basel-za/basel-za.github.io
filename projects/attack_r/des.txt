@@ -1,0 +1,12 @@
+<b>Motivation</b> <br>
+Cyber threat intelligence (CTI) reports analyze real-world attack incidents, malicious campaigns, and malware. <br>
+CTI reports are written in unstructured text with styles and terminologies that vary across providers, hindering automated analysis of attack procedures and defensive measures. <br>
+<br>
+<b>Objective</b> <br>
+Build an LLM-based tool that automatically converts CTI reports to structured information in the form of an attack graph that contains the sequence of attack actions, their means, and their tactical objectives. <br>
+<br>
+<b>Approach</b> <br>
+1- Automate the parsing of CTI reports from PDF files or HTML pages. <br>
+2- Develop a tree-of-thoughts LLM-based system to extract and sequence attack procedures. <br>
+3- Enrich attack procedures with contextual knowledge from LLM and public frameworks.  <br>
+4- Ensure the integrity of the system using anti-hallucination approaches.  <br>

@@ -1,0 +1,11 @@
+<b>Motivation</b><br>
+Cyber deception aims to divert attackers from real assets, delay their propagation, and discover their approaches.      <br>
+<br>
+<b>Objective</b> <br>
+Develop a system that deceives malicious PowerShell scripts to divert attackers from real assets to fake crafted data.<br>
+<br>
+<b>Approach</b> <br>
+1- Build a tool that integrates with PowerShell to intercept malicious execution and inject it with deceptive code. <br>
+2- Leverage LLMs to analyze malicious scripts to understand attacker intent and procedures. <br>
+3- Leverage LLMs to generate a deceptive code that provides attackers with convincing fake information. <br>
+ 
